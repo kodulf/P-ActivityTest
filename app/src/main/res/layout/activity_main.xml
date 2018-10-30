@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_bundle"
+        android:text="使用bundle来传值"
+        android:onClick="jumpByBundle"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_intent"
+        android:text="使用intent来传值"
+        android:onClick="jumpByIntent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_application"
+        android:text="使用application来传值"
+        android:onClick="jumpByApplication"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_static"
+        android:text="使用静态类来传值"
+        android:onClick="jumpByStatic"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_sp"
+        android:text="使用SharePreference来传值"
+        android:onClick="jumpBySharePreference"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_db"
+        android:text="使用数据库来传值"
+        android:onClick="jumpByDB"/>
+
+</LinearLayout>
